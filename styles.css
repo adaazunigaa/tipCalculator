@@ -38,4 +38,57 @@ form label{
     font-weight: bold;
 }
 
-font input
+form input,
+form select{
+    padding: 8px;
+    margin: 10px 0;
+}
+
+form input[type="text"]{
+    width: 90px;
+}
+
+button{
+    background: rgba(223, 9, 205, 0.699);
+    color: white;
+    border: none;
+    border-bottom: solid 2px rgba(100, 3, 100, .5);
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 20px 30px;
+    width: 100%;
+}
+
+button:hover{
+    font-weight: 900;
+    border-bottom: black;
+}
+
+button:active{
+    position: relative;
+    top: 2px;
+}
+
+#totalTip{
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+#totalTip:before{
+    content: "Tip ammount";
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    text-transform: uppercase;
+}
+
+#totalTip sup{
+    font-size: 24px;
+    top: -18px;
+}
+
+#totalTip small{
+    font-size: 14px;
+    font-weight: 900;
+    display: block;
+}
